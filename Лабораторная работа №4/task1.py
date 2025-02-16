@@ -31,7 +31,7 @@ class Parallelepiped:
 
     def __str__(self) -> str:
         """
-        Строковое представление Параллелепипеда.
+        Строковое представление параллелепипеда.
         :return: Строка с информацией о сторонах параллелепипеда.
         """
         return f"Параллелепипед со сторонами a = {self.length}, b = {self.width}, c = {self.height} и объемом v = {self.volume}"
@@ -39,7 +39,7 @@ class Parallelepiped:
 
     def __repr__(self) -> str:
         """
-        Официальное строковое представление транспортного средства.
+        Официальное строковое представление параллелепипеда.
         :return: Строка, позволяющая воспроизвести экземпляр класса.
         """
         return f"{self.__class__.__name__}(length={self.length!r}, width={self.width!r}, height={self.height!r})"
